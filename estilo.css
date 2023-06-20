@@ -1,0 +1,248 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: linear-gradient(-120deg, #010238, #143d52, #035157);
+	font-family: Arial;
+	list-style: none;
+	text-decoration: none;
+}
+hr{ 
+	margin-left: 2cm;
+	margin-right: 2cm;
+}
+.rodape {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	bottom: 0px;
+	right:0cm;
+	left:0cm;
+	position: fixed;
+	padding: 10px;
+	background-color: black;
+	color: white;
+}
+.seta {
+	display: flex;
+	position: fixed;
+	justify-content: flex-end;
+	bottom: 40px;
+	right: 20px;
+  }
+  
+  .seta img {
+	width: 40px;
+	padding: 3px;
+	background: #5caaeb;
+	border-radius: 15px;
+	box-shadow: 10px 10px 30px #000000;
+  }
+.menu ul li {
+	background-color: #3668a8;
+	color: #fff;
+	float: left;
+	width: 200px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 25px;
+	position: relative;
+	font-family: 'trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+	transition: background-color 0.5s;
+}
+
+.menu ul li:hover {
+	background-color: #0d4db4;
+        color: black;
+}
+
+.menu ul {
+	padding: 0;
+}
+
+.menu ul ul {
+	display: none;
+}
+
+.menu ul li:hover > ul {
+	display: block;
+}
+
+.menu ul ul li:hover {
+	background-color: #0e326d;
+        color: black;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.titulo {
+	color: white;
+	text-align: center;
+	font-family: 'Apple Chancery', cursive;
+	font-size: 75px;
+}
+
+.img1 {
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	box-shadow: 17px 3px 40px 16px #000000;
+	width: 600px;
+	height: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.texto1 {
+        font-size: 25px;
+        font-family: Andale Mono, monospace;
+        text-align: center;
+
+}
+.img2 {
+	box-shadow: 3px 3px 30px 16px #000000;
+	width: 360px;
+	height: 470px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.img3 {
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20%;
+	border: 2px solid #000000;
+	overflow: hidden;
+}
+.orige1 {
+	font-size: 22px;
+    font-family: Andale Mono, monospace;
+    text-align: justify;
+	background-size: cover;
+	margin-right: 125px;
+}
+.origem1{
+	display: flex;
+}
+.orige2 {
+	font-size: 22px;
+    font-family: Andale Mono, monospace;
+    text-align: justify;
+	background-size: cover;
+	margin-right: 80px;
+}
+.orige3 {
+	font-size: 22px;
+    font-family: Andale Mono, monospace;
+    text-align: justify;
+	background-size: cover;
+	margin-right: 40px;
+}
+.titulo2 {
+	text-align: center;
+	font-family: Andale Mono, monospace;
+	font-size: 75px;
+}
+.texto2 {
+	font-size: 22px;
+    font-family: Andale Mono, monospace;
+    text-align: center;
+}
+.papeis1 {
+	font-family: serif;
+	font-size: 80px;
+	text-align: center;
+}
+.hr1 {
+	margin-left: 600px;
+	margin-right: 600px;
+}
+.papeis2 {
+	font-family: Noto Sans, sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+.fotos{
+	display: flex;
+}
+.fotos1{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20%;
+	border: 2px solid #000000;
+	overflow: hidden;
+}
+.hr2 {
+	margin-left: 400px;
+	margin-right: 400px;
+}
+.hr3 {
+	margin-left: 350px;
+	margin-right: 350px;
+}
+.hr4 {
+	margin-left: 300px;
+	margin-right: 300px;
+}
+.gallery {
+	display: flex;
+	justify-content: center;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 0px;
+}
+
+.image {
+	width: calc(33.33% - 20px);
+	height: auto;
+	margin: 10px;
+	overflow: hidden;
+	border: 5px solid #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	transition: border-width 0.3s;
+}
+
+.image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.3s;
+}
+
+.image:hover {
+	border-width: 10px;
+}
+
+.image:hover img {
+	transform: scale(1.1);
+}
+textarea{
+	resize: none;
+}
+.contato{
+	font-size: 45px;
+	text-align: center;
+	font-family: Andale Mono, monospace;
+	color: white;
+}
+.form {
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	Text-indent: justify;
+}
+.contato2 {
+	font-size: 45px;
+	text-align: center;
+	color: white;
+	font-family: Andale Mono, monospace;
+}

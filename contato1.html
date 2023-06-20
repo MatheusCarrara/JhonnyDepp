@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>JHONY DEPP</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/jpg" href="imagens/icone.jpg">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script language="javascript" type="text/javascript">
+		function validar() {
+			var nome = document.empresa.nome.value;
+			var email = document.empresa.email.value;
+			var numero = document.empresa.numero.value;
+
+			if (nome == "") {
+				alert('Por favor, insira seu nome');
+				document.empresa.nome.focus();
+				return false;
+			}
+			if (email == "") {
+				alert('Por favor, insira seu email');
+				document.empresa.email.focus();
+				return false;
+			}
+			if (numero == "") {
+				alert('Por favor, insira seu número');
+				document.empresa.numero.focus();
+				return false;
+			}
+			if (nome.length <= 4) {
+				alert('Digite seu nome verdadeiro');
+				document.empresa.nome.focus();
+				return false;
+			}
+			if (email.length <= 10) {
+				alert('Digite seu email completo');
+				document.empresa.email.focus();
+				return false;
+			}
+		}
+	</script>
+</head>
+<body>
+	<br>
+	<nav class="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="historia.html">História</a></li>
+			<li>Papéis
+				<ul>
+					<li><a href="papel1.html">filme1</a></li>
+					<li><a href="papel2.html">filme2</a></li>
+					<li><a href="papel3.html">filme3</a></li>
+					<li><a href="papel4.html">filme4</a></li>
+				</ul>
+			</li>
+			<li><a href="galeria.html">Galeria</a></li>
+			<li>Contato</li>
+		</ul>
+	</nav><br><br><br><br><br><br><br>
+
+	<p class="contato">Contato</p><br><br><br>
+	<center>
+		<font color="white" size="5px">
+			<form name="empresa" action="contato2.html" method="post">
+				Nome: <input type="text" name="nome"><br>
+				Email: <input type="text" name="email"><br>
+				Telefone: <input type="text" name="numero"><br><br><br>
+				Deixar Comentário<br><textarea cols="35" rows="15"></textarea><br>
+				<input type="submit" onclick="return validar()" value="Enviar">
+				<input type="reset" name="limpa" value="Limpar">
+			</form>
+		</font>
+	</center>
+
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+	<div class="rodape">
+		<h5>Matheus Pereira 2023 - Trabalho acadêmico sem fins lucrativos - &copyTodos os direitos reservados</h5>
+	</div>
+</body>
+</html>
