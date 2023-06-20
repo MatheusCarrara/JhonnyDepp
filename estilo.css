@@ -1,6 +1,7 @@
 *{
 	padding: 0;
 	margin: 0;
+	scroll-behavior: smooth;
 }
 body {
 	background: linear-gradient(-120deg, #010238, #143d52, #035157);
