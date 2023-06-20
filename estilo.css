@@ -181,12 +181,12 @@ hr{
 	margin-right: 360px;
 }
 .hr3 {
-	margin-left: 350px;
-	margin-right: 350px;
-}
-.hr4 {
 	margin-left: 300px;
 	margin-right: 300px;
+}
+.hr4 {
+	margin-left: 270px;
+	margin-right: 270px;
 }
 .gallery {
 	display: flex;
